@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+</head>
+<body>
+<!--NIM, nama, jenis kelamin, agama, status, jurusan-->
+<form>
+    <h1>Form Pendaftaran</h1>
+    <pre>
+        NIM             : <input type="text" name="nim" size="11"> 
+        NAMA            : <input type="text" name="nama" size="25"> 
+        Jenis Kelamin   : <input type="radio" name="jenis" value="pria"> pria
+                          <input type="radio" name="jenis" value="wanita"> Wanita
+        Agama           : <select name="agama" id="">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                </select>
+        Status          : <input type="radio" name="status" value="kawin">Kawin 
+                          <input type="radio" name="status" value="belumkawin">Belum kawin
+        Jurusan         : <select name="jurusan" id="">
+                        <option value="ti">Teknik Informatika</option>
+                        <option value="akp">akuntansi Perpajakan</option>
+                        <option value="mnj">Manajemen Bisnis</option>
+                        </select>
+        Hobi            :<input type="checkbox" name="hobi" value="futsal"> futsal
+                         <input type="checkbox" name="hobi" value="Renang"> Renang
+                         <input type="checkbox" name="hobi" value="badminton"> Badminton
+        Keterangan      : <textarea name="ket" id="" rows="3" cols="30"></textarea>
+    </pre>
+            <input type="submit" value="kirim">
+            <input type="reset" value="reset">
+</form>
+</body>
+</html>
